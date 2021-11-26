@@ -1,3 +1,16 @@
 .example-spacer {
   flex: 1 1 auto;
 }
+
+.mat-toolbar.mat-primary {
+  background-color: #1f191b !important;
+  color: #b3a8ac !important;
+}
+
+button.example-icon {
+  color: #b3a8ac !important;
+  background-color: #1f191b !important;
+  border-color: #1f191b !important;
+  border-width: 0.1px !important;
+  border-style: none !important;
+}
