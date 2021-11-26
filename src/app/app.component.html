@@ -1,10 +1,10 @@
-    <mat-toolbar color="primary">
-      <mat-toolbar-row>
+    <mat-toolbar color="primary" class="color1">
+      <mat-toolbar-row >
         <mat-toolbar-row>
-          <button mat-icon-button (click)="togglesidenav(_Isshow)" class="example-icon" aria-label="Example icon-button with menu icon">
+          <button mat-icon-button (click)="togglesidenav(_Isshow)" class="menu" aria-label="Example icon-button with menu icon">
             <mat-icon>menu</mat-icon>
           </button>
-          <div *ngIf="_Isshow !== false">
+          <div class="menulist" *ngIf="_Isshow !== false">
             <a mat-button [routerLink]="'/'"> <mat-icon>home</mat-icon> Home </a>
             <a mat-button [routerLink]="'/'"> <mat-icon>monetization_on</mat-icon> Pricing </a>
             <a mat-button [routerLink]="'/'"> <mat-icon>person</mat-icon> About us </a>
@@ -15,17 +15,18 @@
             <span>@iPolyPro</span>
         </mat-toolbar-row>
         <span class="example-spacer"></span>
-        <button mat-icon-button class="example-icon" aria-label="Example icon-button with heart icon">
+        <button mat-icon-button class="button.social" aria-label="Example icon-button with heart icon">
           <mat-icon>thumb_up</mat-icon>
         </button>
         <span>Facebook</span>
-        <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+        <button mat-icon-button class="button.social" aria-label="Example icon-button with share icon">
           <mat-icon>tv</mat-icon>
         </button>
         <span>Youtube</span>
       </mat-toolbar-row>
     </mat-toolbar>
-
-    <div ></div>
+  <div class="container">
+  
+  </div>
 
 
