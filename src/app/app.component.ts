@@ -13,8 +13,7 @@ export class AppComponent {
   isIn = true;
   left = true;
   _Isshow = false;
-
-
+  _IsState = 0;
 
   get right() {
     return !this.left;
@@ -30,6 +29,24 @@ export class AppComponent {
     }
     else {
       this._Isshow = false;
+    }
+  }
+  
+  GoToWebsite (item : number) {
+    switch (item){
+      case 0 :
+        location.reload();
+        this._IsState = 0;
+        break;
+      case 1 :
+        window.location.href ='https://www.facebook.com/YaJokProgrammer';
+        break;
+      case 2 :
+        window.location.href = 'https://www.youtube.com/channel/UCYi3xArJr6Hn6GiiUfFbNtg';
+        break;
+      default:
+        this._IsState = 3;
+        break;
     }
   }
 }

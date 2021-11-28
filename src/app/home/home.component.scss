@@ -1,0 +1,50 @@
+// Margin Fonts
+
+.my-50 {
+  margin: 50px 50px 50px 50px;
+}
+
+.my-20 {
+  margin: 20px 0px 20px 0px;
+}
+
+.mx-20 {
+  margin: 0px 20px 0px 20px;
+}
+
+.f-home {
+  font-size: 27px;
+}
+
+// Alignment Website
+
+.d-block {
+  margin-top: 20px;
+  display: block;
+}
+.center {
+  text-align: center;
+  align-items: center;
+}
+
+.centerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.right {
+  text-align: right;
+  align-items: right;
+}
+
+// Color
+
+.scbcolor {
+  background-color: #4b2885;
+}
+
+.warningcolor {
+  color: red !important;
+}

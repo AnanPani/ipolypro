@@ -33,16 +33,17 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatTableModule } from '@angular/material/table';
+import { HomeComponent } from './home/home.component';
 
+import { FlexLayoutModule } from '@angular/flex-layout';
 
-import { SidebarComponent } from './sidebar/sidebar.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    SidebarComponent
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -74,7 +75,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     MatTableModule,
     MatTabsModule,
     MatToolbarModule,
-    MatTooltipModule
+    MatTooltipModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
