@@ -35,7 +35,6 @@ export class AppComponent {
   GoToWebsite (item : number) {
     switch (item){
       case 0 :
-        location.reload();
         this._IsState = 0;
         break;
       case 1 :

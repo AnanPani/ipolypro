@@ -40,11 +40,27 @@
 }
 
 // Color
-
 .scbcolor {
   background-color: #4b2885;
+  @media screen and (min-width: 360px) {
+    padding-top: 0.5%;
+  }
+  @media screen and (min-width: 1366px) {
+    padding-top: 1.5%;
+  }
+}
+
+.color {
+  background: linear-gradient(135deg, #2d3436 0%, #b3a8ac 100%);
+  color: white;
 }
 
 .warningcolor {
   color: red !important;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+  text-align: center;
 }
