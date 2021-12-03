@@ -7,6 +7,11 @@
   background-image: linear-gradient(315deg, #2d3436 70%, #524f4f 25%);
 }
 
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .mat-toolbar.mat-primary {
   background-color: #2d3436 !important;
   color: #b3a8ac !important;
@@ -34,6 +39,14 @@ div.menulist {
   -moz-animation: lefttoright ease 0.5s;
   -o-animation: lefttoright ease 0.5s;
   -ms-animation: lefttoright ease 0.5s;
+}
+
+.mx-10 {
+  margin: 0px 10px 0px 10px;
+}
+
+.my-10 {
+  margin: 10px 0px 10px 0px;
 }
 
 // Start Left To Right

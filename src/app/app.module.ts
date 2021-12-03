@@ -36,6 +36,10 @@ import { MatTableModule } from '@angular/material/table';
 import { HomeComponent } from './home/home.component';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { PricingComponent } from './pricing/pricing.component';
+import { TermofusComponent } from './termofus/termofus.component';
+import { FaqComponent } from './faq/faq.component';
+import { ProfoilioComponent } from './profoilio/profoilio.component';
 
 
 
@@ -43,7 +47,11 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    PricingComponent,
+    TermofusComponent,
+    FaqComponent,
+    ProfoilioComponent
   ],
   imports: [
     BrowserModule,

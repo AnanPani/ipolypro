@@ -5,14 +5,14 @@
             <mat-icon>menu</mat-icon>
           </button>
           <div class="menulist" *ngIf="_Isshow !== false">
-            <a mat-button (click)="GoToWebsite(0)"> <mat-icon>home</mat-icon> Home </a>
-            <a mat-button (click)="GoToWebsite(3)"> <mat-icon>monetization_on</mat-icon> Pricing </a>
-            <a mat-button (click)="GoToWebsite(4)"> <mat-icon>person</mat-icon> About us </a>
-            <a mat-button (click)="GoToWebsite(5)"> <mat-icon>contact_support</mat-icon> Contact us </a>
-            <a mat-button (click)="GoToWebsite(6)"> <mat-icon>person_pin_circle</mat-icon> Profoilio </a>
+            <a [routerLink]="['']" routerLinkActive="router-link-active" ><mat-icon>home</mat-icon> Home </a>
+            <a  [routerLink]="['/pricing']"><mat-icon>monetization_on</mat-icon> Pricing </a>
+            <a [routerLink]="['/termofus']"><mat-icon>account_balance</mat-icon> Terms of us </a>
+            <a [routerLink]="['/faq']"><mat-icon>contact_support</mat-icon> FAQ </a>
+            <a [routerLink]="['/profoilio']"><mat-icon>person_pin_circle</mat-icon> Profoilio </a>
             <!-- <a mat-button [routerLink]="'/'"> <mat-icon>search</mat-icon> Others </a> -->
           </div>
-            <span>@iPolyPro</span>
+            <span class="mx-10"><a class="color2" href="https://www.youtube.com/channel/UCYi3xArJr6Hn6GiiUfFbNtg">@iPolyPro</a></span>
         </mat-toolbar-row>
         <span class="example-spacer"></span>
         <button (click)="GoToWebsite(1)" mat-icon-button class="button.social" aria-label="Facebook">
@@ -24,7 +24,7 @@
       </mat-toolbar-row>
     </mat-toolbar>
   <div class="container">
-    <app-home *ngIf="_IsState === 0" ></app-home>
+    <router-outlet></router-outlet>
   </div>
 
 

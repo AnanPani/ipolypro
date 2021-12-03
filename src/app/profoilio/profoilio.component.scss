@@ -1,0 +1,87 @@
+// Margin Fonts
+
+.my-50 {
+  margin: 50px 50px 50px 50px;
+}
+
+.my-20 {
+  margin: 20px 0px 20px 0px;
+}
+
+.mx-20 {
+  margin: 0px 20px 0px 20px;
+}
+
+.mx-10 {
+  margin: 0px 10px 0px 10px;
+}
+
+.f-home {
+  font-size: 27px;
+}
+
+.w300 {
+  width: 300px;
+}
+
+.rounded {
+  border-radius: 50%;
+}
+
+a.white {
+  color: #fff;
+}
+
+// Alignment Website
+
+.d-block {
+  margin-top: 20px;
+  display: block;
+}
+.center {
+  text-align: center;
+  align-items: center;
+}
+
+.left {
+  text-align: left;
+  align-items: left;
+}
+
+.centerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.right {
+  text-align: right;
+  align-items: right;
+}
+
+// Color
+.scbcolor {
+  background-color: #4b2885;
+  @media screen and (min-width: 360px) {
+    padding-top: 0.5%;
+  }
+  @media screen and (min-width: 1366px) {
+    padding-top: 1.5%;
+  }
+}
+
+.color {
+  background: linear-gradient(135deg, #2d3436 0%, #b3a8ac 100%);
+  color: white;
+}
+
+.warningcolor {
+  color: red !important;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
